@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+HOME_="$HOME/.Tools/Server_Config/lib";
+HOME__="$HOME/.Tools/Server_Config";
+
+sudo chmod +x "$HOME_/pyc_clear" && bash "$HOME_/pyc_clear"
+
+
