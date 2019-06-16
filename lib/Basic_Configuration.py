@@ -17,7 +17,7 @@ def add_user_group(group_name,path,username):
 
     commands__(cmd1)
     commands__(cmd2)
-    commands__(cmd3)
+    # commands__(cmd3)
     commands__(cmd4)
 
 
