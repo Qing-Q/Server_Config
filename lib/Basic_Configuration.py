@@ -12,7 +12,7 @@ def add_user_group(group_name,path,username):
     """
     cmd1 = 'sudo groupadd {}'.format(group_name)
     cmd2 = 'sudo useradd -g {} -s {} {}'.format(group_name,path,username)
-    cmd3 = 'sudo mkpasswd {}'.format(username)
+    # cmd3 = 'sudo mkpasswd {}'.format(username)
     cmd4 = 'sudo passwd {}'.format(username)
 
     commands__(cmd1)
